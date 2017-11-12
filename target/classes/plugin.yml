@@ -29,4 +29,8 @@ commands:
   sniper:
     description: Kit sniper.
   switcher:
-    description: Kit switcher
+    description: Kit switcher.
+  snail:
+    desctiption: Kit snail.
+  matrix:
+    description: Kit matrix.
