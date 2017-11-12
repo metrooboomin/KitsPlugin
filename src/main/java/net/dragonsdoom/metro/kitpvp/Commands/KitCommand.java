@@ -173,6 +173,15 @@ public class KitCommand implements CommandExecutor {
                 mhulk.setLore(mlist);
                 hulk.setItemMeta(mhulk);
 
+                ItemStack matrix = new ItemStack(Material.WATCH);
+                ItemMeta mmatrix = matrix.getItemMeta();
+                mmatrix.setDisplayName(ChatColor.YELLOW + "Matrix Kit");
+                List<String> malist = new ArrayList<String>();
+                malist.add(ChatColor.RED + "Freeze others within 5 blocks around you");
+                malist.add(ChatColor.RED + "Rank" + ChatColor.GREEN + "Donator");
+                mmatrix.setLore(malist);
+                matrix.setItemMeta(mmatrix);
+
                 //GUI !!!
                 Inventory inv = Bukkit.createInventory(p, 54, "§cDragonsDoom §7> §6Kit Selector§f:");
 

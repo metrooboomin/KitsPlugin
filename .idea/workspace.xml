@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca110c63-85c1-46fe-83ba-fec36a22c2b8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,21 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KitCommand.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KitCommand.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="374">
+              <caret line="182" column="44" lean-forward="false" selection-start-line="182" selection-start-column="44" selection-end-line="182" selection-end-column="44" />
+              <folding>
+                <element signature="e#7752#7760#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            <state relative-caret-position="119">
+              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -170,7 +173,6 @@
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/PvP.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/CoreCommands.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/Soup.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/KangarooEVENT.java" />
@@ -186,12 +188,13 @@
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/MatrixEVENT.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/Matrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kit/KitPvP.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/KitPvP.java" />
         <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java" />
       </list>
     </option>
   </component>
@@ -552,7 +555,7 @@
       <workItem from="1510527051969" duration="125000" />
       <workItem from="1510527194610" duration="880000" />
       <workItem from="1510528204393" duration="313000" />
-      <workItem from="1510528541475" duration="55000" />
+      <workItem from="1510528541475" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="Updated code">
       <created>1510376145097</created>
@@ -722,11 +725,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510528073918</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Changes">
+      <created>1510528649828</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1510528649828</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30232000" />
+    <option name="totallyTimeSpent" value="30896000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -739,16 +749,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18854167" sideWeight="0.37153518" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18854167" sideWeight="0.37686568" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18854167" sideWeight="0.6284648" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18854167" sideWeight="0.6231343" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -817,7 +828,8 @@
     <MESSAGE value="bruh plz fix" />
     <MESSAGE value="PRO THIS VERSION IS BROKEN WITH SWITCHER KIT IF U CAN FIND A FIX PLEASE DO" />
     <MESSAGE value="Force commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Force commit" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1161,14 +1173,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="86" column="42" lean-forward="false" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/KitPvP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1197,9 +1201,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="182" column="44" lean-forward="false" selection-start-line="182" selection-start-column="44" selection-end-line="182" selection-end-column="44" />
+          <folding>
+            <element signature="e#7752#7760#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
