@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Kitpvp:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca110c63-85c1-46fe-83ba-fec36a22c2b8" name="Default" comment="Force commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/KitPvP.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Archer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/FishermanKit/Fisherman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/FishermanKit/FishermanEVENT.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Ghost/Ghost.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Ghost/GhostEVENT$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Ghost/GhostEVENT.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Hulk/Hulk.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Hulk/HulkEVENT.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/Kangaroo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/KangarooEVENT.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Ninja/Ninja.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Ninja/NinjaEVENT.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/Pikachu.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/PikachuEVENT$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/PikachuEVENT.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/PvP.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Sniper/Sniper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Switcher/Switcher.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Switcher/SwitcherEVENT.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Tamer/Tamer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Turtle/Turtle.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Turtle/TurtleEVENT.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/DeathEvent.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/KitMSG.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/KitName.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/Soup.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Kitpvp_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_8_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_ebean_2_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_8_R0_1_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kitpvp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kitpvp/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/KitPvP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Archer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/FishermanKit/Fisherman.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/FishermanKit/FishermanEVENT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ghost/Ghost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ghost/GhostEVENT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Hulk/Hulk.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Hulk/HulkEVENT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/Kangaroo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/KangarooEVENT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/Matrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/MatrixEVENT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ninja/Ninja.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ninja/NinjaEVENT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/Pikachu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/PikachuEVENT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/PvP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Snail/Snail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Snail/SnailEVENT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Sniper/Sniper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Switcher/Switcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Switcher/SwitcherEVENT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/Tamer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Turtle/Turtle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Turtle/TurtleEVENT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/DeathEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitMSG.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/Soup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="KitPvP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/KitPvP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="67" column="53" lean-forward="false" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GiveKit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11203">
+              <caret line="670" column="23" lean-forward="false" selection-start-line="670" selection-start-column="23" selection-end-line="670" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Switcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Switcher/Switcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixEVENT.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/MatrixEVENT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KitUTIL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4097">
+              <caret line="249" column="50" lean-forward="false" selection-start-line="249" selection-start-column="50" selection-end-line="249" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KangarooEVENT.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/KangarooEVENT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KitName.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+              <folding>
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>�</find>
+      <find>ENTITY_EXPERIENCE_ORB_PICKUP</find>
+      <find>ENTITY_ENDERDRAGON_GROWL</find>
+      <find>ninjaU</find>
+      <find>onDamage</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ghost/GhostEVENT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/PikachuEVENT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/stimpay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/PvP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/CoreCommands.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/Soup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/KangarooEVENT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Turtle/TurtleEVENT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/Tamer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/DeathEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ninja/Ninja.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Switcher/Switcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Switcher/SwitcherEVENT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Snail/Snail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Snail/SnailEVENT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/MatrixEVENT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kit/KitPvP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/KitPvP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="407" />
+    <option name="y" value="26" />
+    <option name="width" value="1292" />
+    <option name="height" value="1036" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="Commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="Kits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="Kits" type="462c0819:PsiDirectoryNode" />
+              <item name="Kangaroo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="Kits" type="462c0819:PsiDirectoryNode" />
+              <item name="Matrix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="Kits" type="462c0819:PsiDirectoryNode" />
+              <item name="Ninja" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="Kits" type="462c0819:PsiDirectoryNode" />
+              <item name="PikachuKIT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="Kits" type="462c0819:PsiDirectoryNode" />
+              <item name="Snail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="Kits" type="462c0819:PsiDirectoryNode" />
+              <item name="Sniper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="Kits" type="462c0819:PsiDirectoryNode" />
+              <item name="Switcher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="Kits" type="462c0819:PsiDirectoryNode" />
+              <item name="Tamer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="Kits" type="462c0819:PsiDirectoryNode" />
+              <item name="Turtle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kitpvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kitpvp" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca110c63-85c1-46fe-83ba-fec36a22c2b8" name="Default" comment="" />
+      <created>1510373274468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510373274468</updated>
+      <workItem from="1510373275630" duration="6548000" />
+      <workItem from="1510423450324" duration="5721000" />
+      <workItem from="1510461437589" duration="6408000" />
+      <workItem from="1510509900185" duration="4141000" />
+      <workItem from="1510516432420" duration="395000" />
+      <workItem from="1510516852405" duration="126000" />
+      <workItem from="1510517003173" duration="943000" />
+      <workItem from="1510518330210" duration="479000" />
+      <workItem from="1510518836977" duration="253000" />
+      <workItem from="1510521978822" duration="230000" />
+      <workItem from="1510522359962" duration="1021000" />
+      <workItem from="1510523625771" duration="525000" />
+      <workItem from="1510524173543" duration="61000" />
+      <workItem from="1510524420857" duration="136000" />
+      <workItem from="1510524583040" duration="209000" />
+      <workItem from="1510524810471" duration="1056000" />
+      <workItem from="1510526139262" duration="596000" />
+      <workItem from="1510526866749" duration="11000" />
+      <workItem from="1510527051969" duration="125000" />
+      <workItem from="1510527194610" duration="488000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updated code">
+      <created>1510376145097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510376145097</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated code">
+      <created>1510376248715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1510376248715</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated code">
+      <created>1510376312167</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1510376312167</updated>
+    </task>
+    <task id="LOCAL-00004" summary="stupid error">
+      <created>1510376895488</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1510376895488</updated>
+    </task>
+    <task id="LOCAL-00005" summary="stupid error x2">
+      <created>1510376914012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1510376914012</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit :)">
+      <created>1510377573506</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1510377573506</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added soup">
+      <created>1510378952097</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1510378952097</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Sniper Additions and More.">
+      <created>1510424479775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1510424479775</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Arrow fixes and givekit fixes.">
+      <created>1510424817820</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1510424817820</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Soup fixes">
+      <created>1510425777546</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1510425777546</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Soup fixes">
+      <created>1510425995377</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1510425995377</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Soup fixes">
+      <created>1510426208238</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1510426208238</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Soup fixes">
+      <created>1510426815967</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1510426815967</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fixed soup">
+      <created>1510426907797</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1510426907797</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fixed soup">
+      <created>1510461718409</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1510461718409</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Turtle Changes and others">
+      <created>1510462481648</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1510462481648</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added a switcher Kit :)">
+      <created>1510464782918</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1510464782918</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fixed forgetting Eventhandler. dont know how">
+      <created>1510466692462</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1510466692462</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fixed forgetting Eventhandler. dont know how">
+      <created>1510467066262</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1510467066262</updated>
+    </task>
+    <task id="LOCAL-00020" summary="bruh plz fix">
+      <created>1510467217671</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1510467217671</updated>
+    </task>
+    <task id="LOCAL-00021" summary="PRO THIS VERSION IS BROKEN WITH SWITCHER KIT IF U CAN FIND A FIX PLEASE DO">
+      <created>1510467873645</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1510467873645</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29472000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35104167" sideWeight="0.63646054" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4706823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.4936034" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated code" />
+    <MESSAGE value="stupid error" />
+    <MESSAGE value="stupid error x2" />
+    <MESSAGE value="Commit :)" />
+    <MESSAGE value="Added soup" />
+    <MESSAGE value="Sniper Additions and More." />
+    <MESSAGE value="Arrow fixes and givekit fixes." />
+    <MESSAGE value="Soup fixes" />
+    <MESSAGE value="Fixed soup" />
+    <MESSAGE value="Turtle Changes and others" />
+    <MESSAGE value="Added a switcher Kit :)" />
+    <MESSAGE value="Fixed forgetting Eventhandler. dont know how" />
+    <MESSAGE value="bruh plz fix" />
+    <MESSAGE value="PRO THIS VERSION IS BROKEN WITH SWITCHER KIT IF U CAN FIND A FIX PLEASE DO" />
+    <MESSAGE value="Force commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Force commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ninja/Ninja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3638">
+          <caret line="222" column="47" lean-forward="true" selection-start-line="222" selection-start-column="47" selection-end-line="222" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="70" lean-forward="true" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          <folding>
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="139" column="31" lean-forward="false" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Turtle/Turtle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/Tamer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ninja/Ninja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ninja/NinjaEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Turtle/TurtleEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/Soup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/KitPvP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="55" column="53" lean-forward="false" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10982">
+          <caret line="646" column="0" lean-forward="true" selection-start-line="646" selection-start-column="0" selection-end-line="646" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/FishermanKit/FishermanEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/FishermanKit/Fisherman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ghost/GhostEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Hulk/HulkEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/stimpay.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Archer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/PvP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/CoreCommands.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/Tamer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Turtle/Turtle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Turtle/TurtleEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitMSG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/DeathEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ninja/NinjaEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ninja/Ninja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Switcher/SwitcherEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Sniper/Sniper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/Soup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Snail/Snail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Snail/SnailEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="68" lean-forward="false" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/PikachuEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="65" column="23" lean-forward="false" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/KangarooEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/MatrixEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          <folding>
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4097">
+          <caret line="249" column="50" lean-forward="false" selection-start-line="249" selection-start-column="50" selection-end-line="249" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Switcher/Switcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11203">
+          <caret line="670" column="23" lean-forward="false" selection-start-line="670" selection-start-column="23" selection-end-line="670" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/KitPvP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="53" lean-forward="false" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Kitpvp:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Minecraft</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kitpvp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.code.gson:gson:2.3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

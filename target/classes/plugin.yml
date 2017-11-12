@@ -1,0 +1,32 @@
+name: KitPvP
+version: 1.0-SNAPSHOT
+main: net.dragonsdoom.metro.kitpvp.KitPvP
+authors: [Metro, ProSl3nderman]
+description: KitPvP Plugin forked for DragonsDoom
+commands:
+  kit:
+    description: Kit Selector
+  pvp:
+    description: Kit pvp.
+  archer:
+    description: Kit archer.
+  tamer:
+    description: Kit tamer.
+  pikachu:
+    description: Kit pikachu.
+  fisherman:
+    description: Kit fisherman.
+  kangaroo:
+    description: Kit kangaroo.
+  ghost:
+    description: Kit ghost.
+  ninja:
+    description: Kit ninja.
+  hulk:
+    description: Kit hulk.
+  turtle:
+    description: Kit turtle.
+  sniper:
+    description: Kit sniper.
+  switcher:
+    description: Kit switcher
