@@ -6,103 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca110c63-85c1-46fe-83ba-fec36a22c2b8" name="Default" comment="Force commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/KitPvP.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Archer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/FishermanKit/Fisherman.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/FishermanKit/FishermanEVENT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Ghost/Ghost.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Ghost/GhostEVENT$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Ghost/GhostEVENT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Hulk/Hulk.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Hulk/HulkEVENT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/Kangaroo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/KangarooEVENT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Ninja/Ninja.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Ninja/NinjaEVENT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/Pikachu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/PikachuEVENT$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/PikachuEVENT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/PvP.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Sniper/Sniper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Switcher/Switcher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Switcher/SwitcherEVENT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Tamer/Tamer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Turtle/Turtle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Turtle/TurtleEVENT.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/DeathEvent.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/KitMSG.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/KitName.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/Soup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Kitpvp_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_8_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_ebean_2_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_8_R0_1_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kitpvp.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Kitpvp/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/KitPvP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Archer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/FishermanKit/Fisherman.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/FishermanKit/FishermanEVENT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ghost/Ghost.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ghost/GhostEVENT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Hulk/Hulk.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Hulk/HulkEVENT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/Kangaroo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/KangarooEVENT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/Matrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/MatrixEVENT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ninja/Ninja.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ninja/NinjaEVENT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/Pikachu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/PikachuEVENT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/PvP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Snail/Snail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Snail/SnailEVENT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Sniper/Sniper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Switcher/Switcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Switcher/SwitcherEVENT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/Tamer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Turtle/Turtle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Turtle/TurtleEVENT.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/DeathEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitMSG.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitName.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/Soup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" />
+    <list default="true" id="ca110c63-85c1-46fe-83ba-fec36a22c2b8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,11 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KitCommand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -197,16 +112,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4097">
               <caret line="249" column="50" lean-forward="false" selection-start-line="249" selection-start-column="50" selection-end-line="249" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KangarooEVENT.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Kangaroo/KangarooEVENT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -643,7 +548,7 @@
       <workItem from="1510526139262" duration="596000" />
       <workItem from="1510526866749" duration="11000" />
       <workItem from="1510527051969" duration="125000" />
-      <workItem from="1510527194610" duration="488000" />
+      <workItem from="1510527194610" duration="586000" />
     </task>
     <task id="LOCAL-00001" summary="Updated code">
       <created>1510376145097</created>
@@ -792,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510467873645</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Force commit">
+      <created>1510527699114</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1510527699114</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29472000" />
+    <option name="totallyTimeSpent" value="29570000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,18 +724,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35104167" sideWeight="0.36620468" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35104167" sideWeight="0.63646054" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35104167" sideWeight="0.6337953" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4706823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4706823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1075,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Turtle/Turtle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1268,6 +1173,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding />
         </state>
       </provider>
