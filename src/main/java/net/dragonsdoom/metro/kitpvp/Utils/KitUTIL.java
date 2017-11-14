@@ -30,10 +30,8 @@ public class KitUTIL {
         ItemMeta bootMeta = boots.getItemMeta();
         ((LeatherArmorMeta)bootMeta).setColor(Color.TEAL);
         boots.setItemMeta(bootMeta);
-        ((PlayerInventory) inv).setHelmet(helm);
-        ((PlayerInventory)inv).setChestplate(chest);
-        ((PlayerInventory)inv).setLeggings(legs);
-        ((PlayerInventory)inv).setBoots(boots);
+
+        setArmor(helm,chest,legs,boots,p);
     }
 
     public static void TamerARMOR(Player p) {
@@ -58,12 +56,7 @@ public class KitUTIL {
         //boots
         ItemStack boots = new ItemStack(Material.DIAMOND_BOOTS);
 
-
-        ((PlayerInventory) inv).setHelmet(helm);
-        ((PlayerInventory)inv).setChestplate(chest);
-        ((PlayerInventory)inv).setLeggings(legs);
-        ((PlayerInventory)inv).setBoots(boots);
-
+        setArmor(helm,chest,legs,boots,p);
     }
 
 
@@ -75,10 +68,7 @@ public class KitUTIL {
         ItemStack legs = new ItemStack(Material.IRON_LEGGINGS);
         ItemStack boots = new ItemStack(Material.IRON_BOOTS);
 
-        ((PlayerInventory) inv).setHelmet(helm);
-        ((PlayerInventory)inv).setChestplate(chest);
-        ((PlayerInventory)inv).setLeggings(legs);
-        ((PlayerInventory)inv).setBoots(boots);
+        setArmor(helm,chest,legs,boots,p);
     }
 
 
@@ -105,12 +95,7 @@ public class KitUTIL {
         ((LeatherArmorMeta)bootMeta).setColor(Color.BLACK);
         boots.setItemMeta(bootMeta);
 
-
-        ((PlayerInventory) inv).setHelmet(helm);
-        ((PlayerInventory)inv).setChestplate(chest);
-        ((PlayerInventory)inv).setLeggings(legs);
-        ((PlayerInventory)inv).setBoots(boots);
-
+        setArmor(helm,chest,legs,boots,p);
     }
 
 
@@ -139,11 +124,7 @@ public class KitUTIL {
         ((LeatherArmorMeta)bootMeta).setColor(Color.GREEN);
         boots.setItemMeta(bootMeta);
 
-
-        ((PlayerInventory)inv).setHelmet(helm);
-        ((PlayerInventory)inv).setChestplate(chest);
-        ((PlayerInventory)inv).setLeggings(legs);
-        ((PlayerInventory)inv).setBoots(boots);
+        setArmor(helm,chest,legs,boots,p);
 
     }
     public static void TurtleARMOR(Player p) {
@@ -160,10 +141,7 @@ public class KitUTIL {
         //boots
         ItemStack boots = new ItemStack(Material.DIAMOND_BOOTS);
 
-        ((PlayerInventory)inv).setHelmet(helm);
-        ((PlayerInventory)inv).setChestplate(chest);
-        ((PlayerInventory)inv).setLeggings(legs);
-        ((PlayerInventory)inv).setBoots(boots);
+        setArmor(helm,chest,legs,boots,p);
     }
     public static void SniperARMOR(Player p) {
         PlayerInventory inv = p.getInventory();
@@ -189,10 +167,8 @@ public class KitUTIL {
         bootmeta.setDisplayName(ChatColor.GOLD + "Sniper Boots");
         boots.setItemMeta(bootmeta);
         boots.addEnchantment(Enchantment.DURABILITY, 3);
-        ((PlayerInventory)inv).setHelmet(helm);
-        ((PlayerInventory)inv).setChestplate(chest);
-        ((PlayerInventory)inv).setLeggings(legs);
-        ((PlayerInventory)inv).setBoots(boots);
+
+        setArmor(helm,chest,legs,boots,p);
     }
     public static void SwitcherARMOR(Player p){
         PlayerInventory inv = p.getInventory();
@@ -217,10 +193,8 @@ public class KitUTIL {
         bootmeta.setDisplayName(ChatColor.GOLD + "Switcher Boots");
         boots.setItemMeta(bootmeta);
         boots.addEnchantment(Enchantment.DURABILITY, 3);
-        ((PlayerInventory)inv).setHelmet(helmet);
-        ((PlayerInventory)inv).setChestplate(chest);
-        ((PlayerInventory)inv).setLeggings(legs);
-        ((PlayerInventory)inv).setBoots(boots);
+
+        setArmor(helmet,chest,legs,boots,p);
     }
     public static void MatrixArmor(Player p) {
         PlayerInventory inv = p.getInventory();
@@ -245,9 +219,15 @@ public class KitUTIL {
         bootmeta.setDisplayName(ChatColor.GOLD + "Matrix Boots");
         boots.setItemMeta(bootmeta);
         boots.addEnchantment(Enchantment.DURABILITY, 3);
-        ((PlayerInventory) inv).setHelmet(helmet);
-        ((PlayerInventory) inv).setChestplate(chest);
-        ((PlayerInventory) inv).setLeggings(legs);
-        ((PlayerInventory) inv).setBoots(boots);
+
+        setArmor(helmet,chest,legs,boots,p);
+    }
+
+    private static void setArmor(ItemStack helmet, ItemStack chest, ItemStack legs, ItemStack boots, Player p) {
+        p.getInventory().setHelmet(helmet);
+        p.getInventory().setChestplate(chest);
+        p.getInventory().setLeggings(legs);
+        p.getInventory().setBoots(boots);
+        p.updateInventory();
     }
 }
