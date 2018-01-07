@@ -25,15 +25,15 @@ public class SniperEVENT implements Listener {
         final Player p = (Player) e.getPlayer();
         if (p.getItemInHand().hasItemMeta() && p.getItemInHand().getItemMeta().hasDisplayName()) {
         	if (p.getItemInHand().getItemMeta().getDisplayName().equals(ChatColor.RED + "Sniper")) { //bow's name is Sniper in Red, changeable
-        		if (e.getAction().equals(Action.RIGHT_CLICK_BLOCK) || e.getAction().equals(Action.RIGHT_CLICK_AIR)) {
+        		if (e.getAction() == (Action.RIGHT_CLICK_BLOCK) || e.getAction() == (Action.RIGHT_CLICK_AIR)) {
         			KitArrays.bowDrawn.add(p.getName()); // adds them to the list of people drawing back a bow/holding back their bow.
-        			
-        			p.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, Integer.MAX_VALUE, 1)); // slowness effect
+
+        			p.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, Integer.MAX_VALUE, 30)); // slowness effect
         		}
         	}
         }
     }
-    
+
     @EventHandler
     public void onBowRelease(EntityShootBowEvent e) { // if a player shoot an arrow.
     	if (!(e.getEntity() instanceof Player)) // if player is not player, do not continue.

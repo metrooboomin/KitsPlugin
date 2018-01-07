@@ -28,7 +28,9 @@ import net.dragonsdoom.metro.kitpvp.Kits.Tamer.Tamer;
 import net.dragonsdoom.metro.kitpvp.Kits.Tamer.TamerEvent;
 import net.dragonsdoom.metro.kitpvp.Kits.Turtle.Turtle;
 import net.dragonsdoom.metro.kitpvp.Kits.Turtle.TurtleEVENT;
+import net.dragonsdoom.metro.kitpvp.Kits.Viper.Viper;
 import net.dragonsdoom.metro.kitpvp.Utils.DeathEvent;
+import net.dragonsdoom.metro.kitpvp.Utils.DropBowlEvent;
 import net.dragonsdoom.metro.kitpvp.Utils.Soup;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
@@ -58,6 +60,7 @@ private static KitPvP instance;
         pm.registerEvents(new SwitcherEVENT(), this);
         pm.registerEvents(new SnailEVENT(), this);
         pm.registerEvents(new MatrixEVENT(), this);
+        pm.registerEvents(new DropBowlEvent(), this);
 
         //GUIS
         pm.registerEvents(new PVPGUI(), this);
@@ -77,6 +80,7 @@ private static KitPvP instance;
         getCommand("hulk").setExecutor(new Hulk());
         getCommand("turtle").setExecutor(new Turtle());
         getCommand("sniper").setExecutor(new Sniper());
+        getCommand("viper").setExecutor(new Viper());
         getCommand("switcher").setExecutor(new Switcher());
         getCommand("snail").setExecutor(new Snail());
         //MISC

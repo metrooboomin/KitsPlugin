@@ -72,9 +72,9 @@ public class KitCommand implements CommandExecutor {
 
 
 
-                ItemStack portal = new ItemStack(Material.IRON_FENCE);
+                ItemStack portal = new ItemStack(Material.PORTAL);
                 ItemMeta portalm = portal.getItemMeta();
-                portalm.setDisplayName("§cNothing");
+                portalm.setDisplayName("§cDragonsDoom KitPvP");
                 portal.setItemMeta(portalm);
 
 
@@ -83,9 +83,9 @@ public class KitCommand implements CommandExecutor {
                 mcomm.setDisplayName("§cCommands");
                 List<String> commandList = new ArrayList<String>();
                 commandList.add(ChatColor.RED + "Gives you a list of commands for the server!");
-
                 mcomm.setLore(commandList);
                 commands.setItemMeta(mcomm);
+
 
                 ItemStack pikachu = new ItemStack(Material.GOLD_AXE);
                 ItemMeta mpika = pikachu.getItemMeta();
@@ -93,7 +93,6 @@ public class KitCommand implements CommandExecutor {
                 List<String> pikaList = new ArrayList<String>();
                 pikaList.add(ChatColor.RED + "Allows you to schock people around you.");
                 pikaList.add(ChatColor.RED + "Rank:" + ChatColor.GREEN + " Donator");
-
                 mpika.setLore(pikaList);
                 pikachu.setItemMeta(mpika);
 
@@ -103,10 +102,8 @@ public class KitCommand implements CommandExecutor {
                 ItemMeta mfish = fisher.getItemMeta();
                 mfish.setDisplayName("§3Fisherman Kit");
                 List<String> fishList = new ArrayList<String>();
-
                 fishList.add(ChatColor.RED + "Allows you to pull players to you with a fishing rod.");
                 fishList.add(ChatColor.RED + "Rank:" + ChatColor.GREEN + " Donator");
-
                 mfish.setLore(fishList);
                 fisher.setItemMeta(mfish);
 
@@ -115,11 +112,9 @@ public class KitCommand implements CommandExecutor {
                 ItemMeta mkang = kang.getItemMeta();
                 mkang.setDisplayName("§3Kangaroo Kit");
                 List<String> kangList = new ArrayList<String>();
-
                 kangList.add(ChatColor.RED + "Rick click the firework, to double jump.");
                 kangList.add(ChatColor.GREEN + "You also get a max damage of 3.5 hearts.");
                 kangList.add(ChatColor.RED + "Rank:" + ChatColor.GREEN + " Donator");
-
                 mkang.setLore(kangList);
                 kang.setItemMeta(mkang);
 
@@ -128,11 +123,9 @@ public class KitCommand implements CommandExecutor {
                 ItemMeta mghost = ghost.getItemMeta();
                 mghost.setDisplayName("§3Ghost Kit");
                 List<String> ghostList = new ArrayList<String>();
-
                 ghostList.add(ChatColor.RED + "Allows you to go invisible for 15 seconds.");
                 ghostList.add(ChatColor.RED + "With a 50 second cooldown.");
                 ghostList.add(ChatColor.RED + "Rank:" + ChatColor.GREEN + " Donator");
-
                 mghost.setLore(ghostList);
                 ghost.setItemMeta(mghost);
 
@@ -141,11 +134,9 @@ public class KitCommand implements CommandExecutor {
                 ItemMeta mninja = ninja.getItemMeta();
                 mninja.setDisplayName("§3Ninja Kit");
                 List<String> ninjaList = new ArrayList<String>();
-
                 ninjaList.add(ChatColor.RED + "Gives you a Darkness ball, wich allows you to hit");
                 ninjaList.add(ChatColor.RED + "a player with it and it will give them negative potion effects.");
                 ninjaList.add(ChatColor.RED + "Rank:" + ChatColor.GREEN + " Donator");
-
                 mninja.setLore(ninjaList);
                 ninja.setItemMeta(mninja);
 
@@ -154,10 +145,8 @@ public class KitCommand implements CommandExecutor {
                 ItemMeta mt = tamer.getItemMeta();
                 mt.setDisplayName("§3Tamer Kit");
                 List<String> tList = new ArrayList<String>();
-
                 tList.add(ChatColor.RED + "Allows you to spawn in minions.");
                 tList.add(ChatColor.RED + "Rank:" + ChatColor.GREEN + " Donator");
-
                 mt.setLore(tList);
                 tamer.setItemMeta(mt);
 
@@ -166,21 +155,38 @@ public class KitCommand implements CommandExecutor {
                 ItemMeta mhulk = hulk.getItemMeta();
                 mhulk.setDisplayName("§3Hulk Kit");
                 List<String> mlist = new ArrayList<String>();
-
                 mlist.add(ChatColor.RED + "Gives you speed, and damage resistance on kill.");
                 mlist.add(ChatColor.RED + "Rank:" + ChatColor.GREEN + " Donator");
-
                 mhulk.setLore(mlist);
                 hulk.setItemMeta(mhulk);
 
                 ItemStack matrix = new ItemStack(Material.WATCH);
                 ItemMeta mmatrix = matrix.getItemMeta();
-                mmatrix.setDisplayName(ChatColor.YELLOW + "Matrix Kit");
+                mmatrix.setDisplayName("§3Matrix Kit");
                 List<String> malist = new ArrayList<String>();
                 malist.add(ChatColor.RED + "Freeze others within 5 blocks around you");
                 malist.add(ChatColor.RED + "Rank" + ChatColor.GREEN + "Donator");
                 mmatrix.setLore(malist);
                 matrix.setItemMeta(mmatrix);
+
+                ItemStack turtle = new ItemStack(Material.CHAINMAIL_CHESTPLATE);
+                ItemMeta turtlemeta = turtle.getItemMeta();
+                turtlemeta.setDisplayName("§3Turtle Kit");
+                List<String> tlist = new ArrayList<String>();
+                tlist.add(ChatColor.RED + "Take half of incoming damage from behind!");
+                tlist.add(ChatColor.RED + "Rank" + ChatColor.GREEN + "Donator");
+                turtlemeta.setLore(tlist);
+                turtle.setItemMeta(turtlemeta);
+
+                ItemStack switcher = new ItemStack(Material.SNOW_BALL);
+                ItemMeta switchermeta = switcher.getItemMeta();
+                switchermeta.setDisplayName("§3Switcher Kit");
+                List<String> slist = new ArrayList<String>();
+                slist.add(ChatColor.RED + "Swap positions with other players!");
+                slist.add(ChatColor.RED + "Rank" + ChatColor.GREEN + "Donator");
+                switchermeta.setLore(slist);
+                switcher.setItemMeta(switchermeta);
+
 
                 //GUI !!!
                 Inventory inv = Bukkit.createInventory(p, 54, "§cDragonsDoom §7> §6Kit Selector§f:");
@@ -214,12 +220,12 @@ public class KitCommand implements CommandExecutor {
                 inv.setItem(24, ninja);
                 inv.setItem(25, tamer);
                 inv.setItem(26, hulk);
+                inv.setItem(27, switcher);
+                inv.setItem(28, turtle);
+                inv.setItem(29, matrix);
 
                 p.openInventory(inv);
-
                 return true;
-
-
             }
         }
         return false;

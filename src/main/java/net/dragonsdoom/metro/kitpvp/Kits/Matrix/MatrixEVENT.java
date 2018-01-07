@@ -37,11 +37,13 @@ public class MatrixEVENT implements Listener {
                         if ((target instanceof Player)) {
                             final Player t = (Player) target;
                             frozen.add(t.getName());
-                            t.sendMessage(ChatColor.RED + "A timelord froze you!");
+                            KitArrays.matrixWAIT.add(p.getName());
+                            t.sendMessage(ChatColor.RED + "Someone with the Matrix Kit froze you!");
                             t.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 100, 5));
                             Bukkit.getServer().getScheduler().runTaskLater(KitPvP.getInstance(), new Runnable() {
                                 public void run() {
                                     frozen.remove(t.getName());
+                                    KitArrays.matrixWAIT.remove(p.getName());
                                     t.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 300, 2));
                                 }
                             }, 100L);

@@ -54,7 +54,7 @@ public class GhostEVENT implements Listener {
                                     player.sendMessage(ChatColor.RED + "Ghost Ability is no longer on cooldown");
                                 }
                             }
-                        } ,400L);
+                        } ,400L)    ;
                     }
                 }
             }

@@ -102,24 +102,6 @@ public class GiveKit {
         featherMeta.setDisplayName(ChatColor.RED + "Fishing Rod");
         snowball.setItemMeta(featherMeta);
 
-
-
-
-        // List armor
-        //helm
-        ItemStack helm = new ItemStack(Material.IRON_HELMET);
-
-        //chest
-        ItemStack chest = new ItemStack(Material.CHAINMAIL_CHESTPLATE);
-
-        //legs
-        ItemStack legs = new ItemStack(Material.IRON_LEGGINGS);
-
-
-        //boots
-        ItemStack boots = new ItemStack(Material.LEATHER_BOOTS);
-
-
         sword.addEnchantment(Enchantment.DAMAGE_ALL, 1);
 
         // Add items to inventory (weapons first.)
@@ -131,10 +113,7 @@ public class GiveKit {
 
 
         //Put armor on player
-        ((PlayerInventory) inv).setHelmet(helm);
-        ((PlayerInventory)inv).setChestplate(chest);
-        ((PlayerInventory)inv).setLeggings(legs);
-        ((PlayerInventory)inv).setBoots(boots);
+        KitUTIL.FishermanArmor(p);
 
 
     }
@@ -209,43 +188,14 @@ public class GiveKit {
         snowball.setItemMeta(featherMeta);
 
 
-
-
-        // List armor
-        //helm
-        ItemStack helm = new ItemStack(Material.IRON_HELMET);
-
-        //chest
-        ItemStack chest = new ItemStack(Material.LEATHER_CHESTPLATE);
-        chest.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 1);
-        ItemMeta chestMeta = chest.getItemMeta();
-        ((LeatherArmorMeta)chestMeta).setColor(Color.YELLOW);
-        chest.setItemMeta(chestMeta);
-
-        //legs
-        ItemStack legs = new ItemStack(Material.LEATHER_LEGGINGS);
-        ItemMeta legsMeta = legs.getItemMeta();
-        ((LeatherArmorMeta)legsMeta).setColor(Color.YELLOW);
-        legs.setItemMeta(legsMeta);
-
-        //boots
-        ItemStack boot = new ItemStack(Material.DIAMOND_BOOTS);
-
-        sword.addEnchantment(Enchantment.DAMAGE_ALL, 2);
-
         // Add items to inventory (weapons first.)
         inv.addItem(sword);
         inv.addItem(snowball);
 
         KitName.giveSoup(p);
 
-
-        //Put armor on player
-        ((PlayerInventory) inv).setHelmet(helm);
-        ((PlayerInventory)inv).setChestplate(chest);
-        ((PlayerInventory)inv).setLeggings(legs);
-        ((PlayerInventory)inv).setBoots(boot);
-
+        //Armor
+        KitUTIL.PikaArmor(p);
     }
 
 
@@ -276,9 +226,7 @@ public class GiveKit {
         p.sendMessage(KitMSG.prefix + "You have chosen kit " + ChatColor.DARK_AQUA + "Archer" + ChatColor.GRAY + "!");
 
         //POTIONS
-        p.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 2147483647, 0));
-        p.addPotionEffect(new PotionEffect(PotionEffectType.JUMP, 2147483647, 1));
-        KitName.StrengthPotion(p);
+        p.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, Integer.MAX_VALUE, 1));
 
         //sword
         ItemStack sword = new ItemStack(Material.STONE_SWORD, 1);
@@ -296,10 +244,7 @@ public class GiveKit {
         ItemStack arrow = new ItemStack(Material.ARROW, 1);
 
         //ARMOR
-        ItemStack helm = new ItemStack(Material.LEATHER_HELMET);
-        ItemStack chest = new ItemStack(Material.IRON_CHESTPLATE);
-        ItemStack legs = new ItemStack(Material.LEATHER_CHESTPLATE);
-        ItemStack boots = new ItemStack(Material.IRON_BOOTS);
+        KitUTIL.ArcherArmor(p);
         //SWORD PLZ AND OTHER ITEM
         inv.addItem(sword);
         inv.addItem(bow);
@@ -307,12 +252,6 @@ public class GiveKit {
 
         //SOUP
         KitName.giveSoup(p);
-
-        //ARMOR
-        ((PlayerInventory)inv).setHelmet(helm);
-        ((PlayerInventory)inv).setChestplate(chest);
-        ((PlayerInventory)inv).setLeggings(legs);
-        ((PlayerInventory)inv).setBoots(boots);
 
     }
 
@@ -599,7 +538,7 @@ public class GiveKit {
         p.sendMessage(KitMSG.prefix + "You have chosen kit" + ChatColor.DARK_AQUA + "Turtle" + ChatColor.GRAY + "!");
 
         //Potions
-        KitName.SlownessPotion(p);
+        p.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, Integer.MAX_VALUE, 2));
 
         //SWORD
         ItemStack sword = new ItemStack(Material.DIAMOND_SWORD);
@@ -645,7 +584,7 @@ public class GiveKit {
         //BOW
         ItemStack bow = new ItemStack(Material.BOW);
         ItemMeta bowmeta = bow.getItemMeta();
-        bowmeta.setDisplayName(ChatColor.DARK_AQUA + "Sniper Bow");
+        bowmeta.setDisplayName(ChatColor.RED + "Sniper");
         bow.setItemMeta(bowmeta);
         bow.addEnchantment(Enchantment.ARROW_INFINITE, 1);
         bow.addEnchantment(Enchantment.ARROW_KNOCKBACK, 2);
@@ -684,6 +623,13 @@ public class GiveKit {
         // Clear inventory
 
         KitName.cleanInventory(p);
+        //Snowballs
+        ItemStack snowballs = new ItemStack(Material.SNOW_BALL);
+        ItemMeta snowballmeta = snowballs.getItemMeta();
+        snowballmeta.setDisplayName(ChatColor.RED + "Switcher Snowballs");
+        snowballs.setItemMeta(snowballmeta);
+        snowballs.setAmount(16);
+        inv.addItem(snowballs);
 
         //Message
 
@@ -717,7 +663,12 @@ public class GiveKit {
 
         //Clear inv
         KitName.cleanInventory(p);
-
+        //WATCH
+        ItemStack watch = new ItemStack(Material.WATCH);
+        ItemMeta watchmeta = watch.getItemMeta();
+        watchmeta.setDisplayName(ChatColor.LIGHT_PURPLE + "Matrix Watch");
+        watch.setItemMeta(watchmeta);
+        inv.addItem(watch);
         //Message
         p.sendMessage(KitMSG.prefix + "You have chosen kit" + ChatColor.DARK_AQUA + "Matrix" + ChatColor.GRAY + "!");
         //SWORD
@@ -731,5 +682,25 @@ public class GiveKit {
         KitUTIL.MatrixArmor(p);
         //SOUP
         KitName.giveSoup(p);
-        }
     }
+    public static void ViperKit(Player p) {
+        if (!p.hasPermission("kit.viper")) {
+            p.sendMessage(KitMSG.noPerms);
+        }
+        if (KitArrays.kitUsed.contains(p) && !p.isOp()) {
+            p.sendMessage(KitMSG.kitUsed);
+        }
+        PlayerInventory inv = p.getInventory();
+        KitName.addKitUsed(p);
+        KitArrays.viperUsed.add(p.getName());
+        //Clear Inventory
+        KitName.cleanInventory(p);
+        //Sword
+        ItemStack sword = new ItemStack(Material.DIAMOND_SWORD);
+        ItemMeta swordmeta  = sword.getItemMeta();
+        swordmeta.setDisplayName(ChatColor.GREEN + "Viper Sword");
+        sword.setItemMeta(swordmeta);
+        inv.addItem(sword);
+
+    }
+}

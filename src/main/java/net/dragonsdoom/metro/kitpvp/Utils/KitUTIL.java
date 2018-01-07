@@ -44,14 +44,13 @@ public class KitUTIL {
         ItemMeta chestMeta = chest.getItemMeta();
         ((LeatherArmorMeta)chestMeta).setColor(Color.WHITE);
         chest.setItemMeta(chestMeta);
-        chest.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 2);
+        chest.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3);
 
         //legs
         ItemStack legs = new ItemStack(Material.LEATHER_LEGGINGS);
         ItemMeta legsMeta = legs.getItemMeta();
         ((LeatherArmorMeta)legsMeta).setColor(Color.BLACK);
         legs.setItemMeta(legsMeta);
-        chest.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3);
 
         //boots
         ItemStack boots = new ItemStack(Material.DIAMOND_BOOTS);
@@ -109,15 +108,13 @@ public class KitUTIL {
         ItemMeta chestMeta = chest.getItemMeta();
         ((LeatherArmorMeta)chestMeta).setColor(Color.GREEN);
         chest.setItemMeta(chestMeta);
-
+        chest.addEnchantment(Enchantment.THORNS, 2);
         chest.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4);
         //legs
         ItemStack legs = new ItemStack(Material.LEATHER_LEGGINGS);
         ItemMeta legsMeta = legs.getItemMeta();
         ((LeatherArmorMeta)legsMeta).setColor(Color.GREEN);
         legs.setItemMeta(legsMeta);
-        chest.addEnchantment(Enchantment.THORNS, 2);
-
         //boots
         ItemStack boots = new ItemStack(Material.LEATHER_BOOTS);
         ItemMeta bootMeta = boots.getItemMeta();
@@ -146,27 +143,26 @@ public class KitUTIL {
     public static void SniperARMOR(Player p) {
         PlayerInventory inv = p.getInventory();
         //helm
-        ItemStack helm = new ItemStack(Material.IRON_HELMET);
-        helm.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 3);
+        ItemStack helm = new ItemStack(Material.CHAINMAIL_HELMET);
         ItemMeta helmmeta = helm.getItemMeta();
         helmmeta.setDisplayName(ChatColor.GOLD + "Sniper Helmet");
         helm.setItemMeta(helmmeta);
         //chest
-        ItemStack chest = new ItemStack(Material.DIAMOND_CHESTPLATE);
+        ItemStack chest = new ItemStack(Material.LEATHER_CHESTPLATE);
+        chest.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4);
         ItemMeta chestmeta = chest.getItemMeta();
         chestmeta.setDisplayName(ChatColor.GOLD + "Sniper ChestPlate");
         chest.setItemMeta(chestmeta);
         //LEGS
-        ItemStack legs = new ItemStack(Material.IRON_LEGGINGS);
+        ItemStack legs = new ItemStack(Material.CHAINMAIL_LEGGINGS);
         ItemMeta legmeta = legs.getItemMeta();
         legmeta.setDisplayName(ChatColor.GOLD + "Sniper Leggings");
         legs.setItemMeta(legmeta);
         //BOOTS
-        ItemStack boots = new ItemStack(Material.GOLD_BOOTS);
+        ItemStack boots = new ItemStack(Material.CHAINMAIL_BOOTS);
         ItemMeta bootmeta = boots.getItemMeta();
         bootmeta.setDisplayName(ChatColor.GOLD + "Sniper Boots");
         boots.setItemMeta(bootmeta);
-        boots.addEnchantment(Enchantment.DURABILITY, 3);
 
         setArmor(helm,chest,legs,boots,p);
     }
@@ -198,6 +194,7 @@ public class KitUTIL {
     }
     public static void MatrixArmor(Player p) {
         PlayerInventory inv = p.getInventory();
+
         //helm
         ItemStack helmet = new ItemStack(Material.IRON_HELMET);
         ItemMeta helmmeta = helmet.getItemMeta();
@@ -221,6 +218,87 @@ public class KitUTIL {
         boots.addEnchantment(Enchantment.DURABILITY, 3);
 
         setArmor(helmet,chest,legs,boots,p);
+    }
+    public static void PikaArmor(Player p) {
+        PlayerInventory inv = p.getInventory();
+
+        //helmet
+        ItemStack helmet = new ItemStack(Material.IRON_HELMET);
+        ItemMeta helmmeta = helmet.getItemMeta();
+        helmmeta.setDisplayName(ChatColor.GOLD + "Pikachu Helmet");
+        helmet.setItemMeta(helmmeta);
+        //chest
+        ItemStack chest = new ItemStack(Material.LEATHER_CHESTPLATE);
+        chest.addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 1);
+        ItemMeta chestmeta = chest.getItemMeta();
+        chestmeta.setDisplayName(ChatColor.GOLD + "Pikachu ChestPlate");
+        chest.setItemMeta(chestmeta);
+        //LEGS
+        ItemStack legs = new ItemStack(Material.LEATHER_LEGGINGS);
+        ItemMeta legmeta = legs.getItemMeta();
+        legmeta.setDisplayName(ChatColor.GOLD + "Pikachu Leggings");
+        legs.setItemMeta(legmeta);
+        //BOOTS
+        ItemStack boots = new ItemStack(Material.DIAMOND_BOOTS);
+        ItemMeta bootmeta = boots.getItemMeta();
+        bootmeta.setDisplayName(ChatColor.GOLD + "Pikachu Boots");
+        boots.setItemMeta(bootmeta);
+
+        setArmor(helmet, chest, legs, boots, p);
+    }
+    public static void FishermanArmor(Player p) {
+        PlayerInventory inv = p.getInventory();
+
+        //helmet
+        ItemStack helmet = new ItemStack(Material.IRON_HELMET);
+        ItemMeta helmmeta = helmet.getItemMeta();
+        helmmeta.setDisplayName(ChatColor.GOLD + "Fisherman Helmet");
+        helmet.setItemMeta(helmmeta);
+        //chest
+        ItemStack chest = new ItemStack(Material.DIAMOND_CHESTPLATE);
+        ItemMeta chestmeta = chest.getItemMeta();
+        chestmeta.setDisplayName(ChatColor.GOLD + "Fisherman ChestPlate");
+        chest.setItemMeta(chestmeta);
+        //LEGS
+        ItemStack legs = new ItemStack(Material.IRON_LEGGINGS);
+        ItemMeta legmeta = legs.getItemMeta();
+        legmeta.setDisplayName(ChatColor.GOLD + "Fisherman Leggings");
+        legs.setItemMeta(legmeta);
+        //BOOTS
+        ItemStack boots = new ItemStack(Material.GOLD_BOOTS);
+        ItemMeta bootmeta = boots.getItemMeta();
+        bootmeta.setDisplayName(ChatColor.GOLD + "Fisherman Boots");
+        boots.setItemMeta(bootmeta);
+        boots.addEnchantment(Enchantment.DURABILITY, 3);
+
+        setArmor(helmet, chest, legs, boots, p);
+    }
+    public static void ArcherArmor(Player p) {
+        PlayerInventory inv = p.getInventory();
+
+        //helmet
+        ItemStack helmet = new ItemStack(Material.IRON_HELMET);
+        ItemMeta helmmeta = helmet.getItemMeta();
+        helmmeta.setDisplayName(ChatColor.GOLD + "Archer Helmet");
+        helmet.setItemMeta(helmmeta);
+        //chest
+        ItemStack chest = new ItemStack(Material.DIAMOND_CHESTPLATE);
+        ItemMeta chestmeta = chest.getItemMeta();
+        chestmeta.setDisplayName(ChatColor.GOLD + "Archer ChestPlate");
+        chest.setItemMeta(chestmeta);
+        //LEGS
+        ItemStack legs = new ItemStack(Material.IRON_LEGGINGS);
+        ItemMeta legmeta = legs.getItemMeta();
+        legmeta.setDisplayName(ChatColor.GOLD + "Archer Leggings");
+        legs.setItemMeta(legmeta);
+        //BOOTS
+        ItemStack boots = new ItemStack(Material.GOLD_BOOTS);
+        ItemMeta bootmeta = boots.getItemMeta();
+        bootmeta.setDisplayName(ChatColor.GOLD + "Archer Boots");
+        boots.setItemMeta(bootmeta);
+
+        setArmor(helmet, chest, legs, boots, p);
+
     }
 
     private static void setArmor(ItemStack helmet, ItemStack chest, ItemStack legs, ItemStack boots, Player p) {

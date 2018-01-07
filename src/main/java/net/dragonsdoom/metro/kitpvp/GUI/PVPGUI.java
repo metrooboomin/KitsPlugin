@@ -94,6 +94,24 @@ public class PVPGUI implements Listener {
                             p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
+                        case "§3Matrix Kit":
+                            Bukkit.dispatchCommand(p, "matrix");
+                            event.setCancelled(true);
+                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
+                            p.closeInventory();
+                            break;
+                        case "§3Turtle Kit":
+                            Bukkit.dispatchCommand(p, "turtle");
+                            event.setCancelled(true);
+                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
+                            p.closeInventory();
+                            break;
+                        case "§3Switcher Kit":
+                            Bukkit.dispatchCommand(p, "matrix");
+                            event.setCancelled(true);
+                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
+                            p.closeInventory();
+                            break;
                          }
                     }
                 }

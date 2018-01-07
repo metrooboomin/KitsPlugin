@@ -12,14 +12,16 @@ import java.util.Random;
 
 public class SnailEVENT implements Listener {
     @EventHandler
-    public void Damage(EntityDamageByEntityEvent e){
-        Player defender = (Player)e.getEntity();
-        Player damager = (Player)e.getDamager();
-        if (KitArrays.snailUsed.contains(damager.getName())) {
-            Random random = new Random();
-            if (random.nextInt(100) <= 33) {
-                defender.addPotionEffect(
-                new PotionEffect(PotionEffectType.SLOW, 1, 140), true);
+    public void Damage(EntityDamageByEntityEvent e) {
+        Player defender = (Player) e.getEntity();
+        Player damager = (Player) e.getDamager();
+        if (damager instanceof Player && defender instanceof Player) {
+            if (KitArrays.snailUsed.contains(damager.getName())) {
+                Random random = new Random();
+                if (random.nextInt(100) <= 33) {
+                    defender.addPotionEffect(
+                            new PotionEffect(PotionEffectType.SLOW, 1, 140), true);
+                }
             }
         }
     }
