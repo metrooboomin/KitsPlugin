@@ -188,7 +188,7 @@ public class KitCommand implements CommandExecutor {
                 switcher.setItemMeta(switchermeta);
 
 
-                //GUI !!!
+                //GUI
                 Inventory inv = Bukkit.createInventory(p, 54, "§cDragonsDoom §7> §6Kit Selector§f:");
 
                 inv.setItem(0, commands);

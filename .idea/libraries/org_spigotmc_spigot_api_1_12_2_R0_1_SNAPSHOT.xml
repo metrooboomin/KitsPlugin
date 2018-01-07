@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT" type="repository">
+    <properties maven-id="org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spigot-api-1.12.2-R0.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-simple-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hamcrest-core-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/snakeyaml-1.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bungeecord-chat-1.12-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/spigot-api-1.12.2-R0.1-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.6-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-simple-1.1.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.10-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-21.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.8.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/snakeyaml-1.19-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bungeecord-chat-1.12-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/spigot-api-1.12.2-R0.1-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-simple-1.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.10-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hamcrest-core-1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-21.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.8.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/snakeyaml-1.19-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/bungeecord-chat-1.12-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

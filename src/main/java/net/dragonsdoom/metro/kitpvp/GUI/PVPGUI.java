@@ -23,22 +23,18 @@ public class PVPGUI implements Listener {
                         case "§3PvP Kit":
                             Bukkit.dispatchCommand(p, "pvp");
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
                         case "§3Archer Kit":
                             Bukkit.dispatchCommand(p, "archer");
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
                         case "§cFree Kits§f:":
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ENDERDRAGON_GROWL, 1, 1);
                             break;
                         case "§3DragonsDoom PvP":
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ENDERDRAGON_GROWL, 1, 1);
                             break;
                         case "§cCommands":
                             event.setCancelled(true);
@@ -50,66 +46,55 @@ public class PVPGUI implements Listener {
                             p.sendMessage(ChatColor.GRAY + " /spawn - Teleports you to spawn point.");
                             p.sendMessage(ChatColor.GRAY + " /warp [warpName] - Basic command to warp to places.");
                             p.sendMessage(ChatColor.GRAY + " /lms join - Join in the Last Man Standing event.");
-                            p.getWorld().playSound(p.getLocation(), Sound.VILLAGER_YES, 1, 1);
                             break;
                         case "§3Pikachu Kit":
                             Bukkit.dispatchCommand(p, "pikachu");
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
                         case "§3Fisherman Kit":
                             Bukkit.dispatchCommand(p, "fisherman");
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
                         case "§3Kangaroo Kit":
                             Bukkit.dispatchCommand(p, "kangaroo");
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
                         case "§3Ghost Kit":
                             Bukkit.dispatchCommand(p, "ghost");
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
                         case "§3Ninja Kit":
                             Bukkit.dispatchCommand(p, "ninja");
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
                         case "§3Tamer Kit":
                             Bukkit.dispatchCommand(p, "tamer");
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
                         case "§3Hulk Kit":
                             Bukkit.dispatchCommand(p, "hulk");
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
                         case "§3Matrix Kit":
                             Bukkit.dispatchCommand(p, "matrix");
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
                         case "§3Turtle Kit":
                             Bukkit.dispatchCommand(p, "turtle");
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
                         case "§3Switcher Kit":
                             Bukkit.dispatchCommand(p, "matrix");
                             event.setCancelled(true);
-                            p.getWorld().playSound(p.getLocation(), Sound.ORB_PICKUP, 1, 1);
                             p.closeInventory();
                             break;
                          }

@@ -7,30 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca110c63-85c1-46fe-83ba-fec36a22c2b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Michael26.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Viper/Viper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/DropBowlEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.class" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/KitPvP.class" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/KitPvP.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.class" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Switcher/Switcher.class" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Switcher/Switcher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Turtle/TurtleEVENT.class" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Kits/Turtle/TurtleEVENT.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_spigotmc_spigot_api_1_12_2_R0_1_SNAPSHOT.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_avaje_ebean_2_8_1.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_8_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_12_SNAPSHOT.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_8_R0_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spigotmc_spigot_api_1_12_2_R0_1_SNAPSHOT.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.class" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.class" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.class" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.class" afterPath="$PROJECT_DIR$/target/classes/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kitpvp.iml" afterPath="$PROJECT_DIR$/Kitpvp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/KitPvP.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/KitPvP.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ghost/GhostEVENT.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ghost/GhostEVENT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/MatrixEVENT.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Matrix/MatrixEVENT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Snail/Snail.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Snail/Snail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Snail/SnailEVENT.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Snail/SnailEVENT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Turtle/TurtleEVENT.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Turtle/TurtleEVENT.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.java" afterPath="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GiveKit.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GiveKit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="616" column="19" lean-forward="true" selection-start-line="616" selection-start-column="19" selection-end-line="616" selection-end-column="19" />
+              <caret line="616" column="19" lean-forward="false" selection-start-line="616" selection-start-column="19" selection-end-line="616" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -55,8 +46,8 @@
       <file leaf-file-name="PVPGUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1677">
-              <caret line="110" column="53" lean-forward="true" selection-start-line="110" selection-start-column="53" selection-end-line="110" selection-end-column="53" />
+            <state relative-caret-position="204">
+              <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -65,8 +56,58 @@
       <file leaf-file-name="KitCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="878">
-              <caret line="198" column="39" lean-forward="true" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
+            <state relative-caret-position="79">
+              <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Soup.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/Soup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SniperEVENT.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TamerEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FishermanEVENT.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/FishermanKit/FishermanEVENT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -101,6 +142,9 @@
       <find>fisherman</find>
       <find>archer</find>
       <find>ninja</find>
+      <find>p.getworld().playsound(p.getlocation(), sound.enderdragon_growl, 1, 1);</find>
+      <find>p.getworld().playsound(p.getlocation(), sound.orb_pickup, 1, 1);</find>
+      <find>switcher</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/PikachuKIT/PikachuEVENT.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/stimpay.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent.java" />
@@ -152,10 +195,11 @@
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/Title.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/Title2.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/Title1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitUTIL.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -392,10 +436,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DDStats" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3557047" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Michael26/IdeaProjects/Kitpvp/KitsPlugin/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/KitArrays.java" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -535,7 +582,7 @@
       <workItem from="1515086248944" duration="4142000" />
       <workItem from="1515104162731" duration="2460000" />
       <workItem from="1515214848583" duration="1320000" />
-      <workItem from="1515301494230" duration="3730000" />
+      <workItem from="1515301494230" duration="4922000" />
     </task>
     <task id="LOCAL-00001" summary="Updated code">
       <created>1510376145097</created>
@@ -712,11 +759,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510528649828</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Lots of changes">
+      <created>1515305259556</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1515305259556</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57584000" />
+    <option name="totallyTimeSpent" value="58776000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -733,7 +787,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.4978678" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -819,14 +873,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/stimpay.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -912,13 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/Soup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -1044,14 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Ghost/GhostEVENT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -1135,34 +1166,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="99" lean-forward="false" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="878">
-          <caret line="198" column="39" lean-forward="true" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
+        <state relative-caret-position="209">
+          <caret line="616" column="19" lean-forward="false" selection-start-line="616" selection-start-column="19" selection-end-line="616" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/GUI/PVPGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1677">
-          <caret line="110" column="53" lean-forward="true" selection-start-line="110" selection-start-column="53" selection-end-line="110" selection-end-column="53" />
+        <state relative-caret-position="204">
+          <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/GiveKit.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="616" column="19" lean-forward="true" selection-start-line="616" selection-start-column="19" selection-end-line="616" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/FishermanKit/FishermanEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Commands/KitCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Sniper/SniperEVENT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Kits/Tamer/TamerEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/dragonsdoom/metro/kitpvp/Utils/Soup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1177,7 +1240,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3557047" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1186,11 +1249,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Minecraft</last-edited>
+          <last-edited>Minecraft (Kitpvp)|Minecraft</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3557047" />
               </list>
             </option>
           </splitter-proportions>
@@ -1198,10 +1261,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3557047" />
               </list>
             </option>
           </splitter-proportions>
@@ -1221,12 +1285,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Kitpvp</last-edited>
+          <last-edited>Minecraft|Kitpvp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.3557047" />
               </list>
             </option>
           </splitter-proportions>
@@ -1234,11 +1297,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.google.code.gson:gson:2.3.1</last-edited>
+          <last-edited>org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3557047" />
               </list>
             </option>
           </splitter-proportions>
